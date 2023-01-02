@@ -12,3 +12,5 @@ products[0] = warzywniak_products
 products[1] = piekarnia_products
         
 print("Lista zakupów")
+for i in range(len(shops)):
+        print( f"Idę do {shops[i].capitalize()}, kupuję tu następujące rzeczy: {products[i]}.")
