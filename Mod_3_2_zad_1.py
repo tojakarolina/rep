@@ -17,4 +17,7 @@ products[1] = piekarnia_products
 
 for i in range(len(shops)):
         print(f"Idę do {shops[i].capitalize()}, kupuję tu następujące rzeczy: {products[i]}.")
-
+product = []
+for x in range(len(products)):
+        product += products[x]
+print(f"W sumie kupuję {len(product)} produktów.")
